@@ -1,1 +1,7 @@
-src
+src/data_fetcher.py
+src/indicators.py
+src/strategies.py
+src/signal_manager.py
+src/notifier.py
+src/logger.py
+src/utils.py
