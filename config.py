@@ -1,1 +1,12 @@
-config.py
+class Config:
+    SYMBOL = "BTCUSDT"
+    TIMEFRAME = "5m"
+    MODE = "normal"
+    COOLDOWN_SECONDS = 300
+    MAX_SIGNALS_PER_HOUR = 6
+    MIN_VOLUME_FACTOR = 1.2
+    RSI_OVERBOUGHT = 70
+    RSI_OVERSOLD = 30
+    EMA_FAST = 9
+    EMA_SLOW = 21
+    ATR_PERIOD = 14
